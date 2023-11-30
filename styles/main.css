@@ -47,6 +47,10 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   background: hsl(210, 46%, 95%);
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -56,6 +60,7 @@ body {
   width: 90%;
   border-radius: 10px;
   margin: 2em auto auto auto;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
 }
 
 .card__main-image {
